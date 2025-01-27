@@ -67,4 +67,24 @@ padding: 1em;
 }
 .site-footer{
     background-color: #352B2A;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-content p{
+    color: white;
+}
+.footer-icons {
+    margin-top: 1em;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    margin: 0 0.5em;
+    transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #E14747;
 }
