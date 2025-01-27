@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font: 18px/1.5 'Karla';
+}
+body{
+    background-image: linear-gradient(rgba(36, 96, 45, 0.934), rgb(110, 14, 14));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+.site-header nav ul{
+    display: flex;
+}
+.site-header nav ul li{
+    list-style-type: none;
+}
+.site-header nav ul li :hover{
+    color:#E14747;
+    transition: 1s;
+}
+.site-header nav ul li a{
+text-decoration:none;
+color: white;
+padding: 1em;
+}
+.site{
+    padding: 2em;
+}
+.site-home{
+    display: block;
+    width: 105px;
+    height: 63px;
+    overflow: hidden;
+    text-indent: -300vw;
+    background-image: url('images/лого-removebg-preview.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.h2{
+    text-align: center;
+    color: white;
+    size: 1.5em;
+}
