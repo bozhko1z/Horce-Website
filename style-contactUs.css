@@ -120,3 +120,18 @@ padding: 1em;
 .contact-form .submit-btn:hover {
     background-color: #d13636;
 }
+
+.footer img{
+    width: 69px;
+    height: auto;
+}
+.footer{
+    color: white;
+    font-size: 20px
+}
+.footer .rights{
+    color: #706565;
+}
+.site-footer{
+    background-color: #352B2A;
+}
