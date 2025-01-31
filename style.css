@@ -209,16 +209,14 @@ padding: 1em;
 
 @media (max-width: 768px) {
     .site-header {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
     }
     body{
         background-image: linear-gradient(rgba(36, 96, 45, 0.934), rgb(110, 14, 14));
     }
 
     .site-header nav ul {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
     }
 
     .site-header nav ul li a {
@@ -227,6 +225,7 @@ padding: 1em;
 
     .title-part h1 {
         font-size: 2.5rem;
+        padding-top: 2em;
     }
 
     .localGuide h1 {
@@ -237,13 +236,9 @@ padding: 1em;
         padding: 0.7em 1.5em;
     }
 
-    .site-footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
     .footer-content {
         margin-top: 1em;
+        text-align: center;
     }
 }
 
