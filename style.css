@@ -206,3 +206,67 @@ padding: 1em;
 	background-color:black;
 	color:#FAD87A;
 }
+
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    body{
+        background-image: linear-gradient(rgba(36, 96, 45, 0.934), rgb(110, 14, 14));
+    }
+
+    .site-header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-header nav ul li a {
+        padding: 0.5em;
+    }
+
+    .title-part h1 {
+        font-size: 2.5rem;
+    }
+
+    .localGuide h1 {
+        font-size: 2rem;
+    }
+
+    .guide-button a {
+        padding: 0.7em 1.5em;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-part h1 {
+        font-size: 2rem;
+    }
+    body{
+        background-image: linear-gradient(rgba(36, 96, 45, 0.934), rgb(110, 14, 14));
+    }
+    .localGuide h1 {
+        font-size: 1.5rem;
+    }
+
+    .guide-button a {
+        padding: 0.5em 1em;
+    }
+
+    .footer img {
+        width: 50px;
+    }
+
+    .footer .rights {
+        font-size: 0.8em;
+    }
+}
