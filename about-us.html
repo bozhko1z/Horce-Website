@@ -6,6 +6,7 @@
     <title>За нас - Хорце</title>
     <link rel="stylesheet" href="style-aboutUs.css">
     <link rel="icon" href="images/favicon_io/favicon-16x16.png">
+    <script src="menu.js" defer></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -14,11 +15,14 @@
             <a href="">ДЮФА Хорце</a>
         </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Начало</a>
-                <li><a href="about-us.html">За нас</a></li>
-                <li><a href="contact-us.html">Контакти</a></li>
-            </ul>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Начало</a>
+                <a href="about-us.html">За нас</a>
+                <a href="contact-us.html">Контакти</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </nav>
     </header>
 
