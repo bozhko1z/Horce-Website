@@ -218,6 +218,13 @@ h1{
     .site-header {
         flex-direction: row;
     }
+    .site-title{
+        padding-top: 0;
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
 
     .topnav a {display: none;}
     .topnav a.icon {
