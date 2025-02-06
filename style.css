@@ -215,6 +215,13 @@ h1{
 }
 
 @media (max-width: 768px) {
+    body{
+        background-color: black;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-height: 95vh;
+    }
     .site-header {
         flex-direction: row;
     }
@@ -244,10 +251,6 @@ h1{
         text-align: left;
     }
 
-    body{
-        background-image: linear-gradient(rgba(36, 96, 45, 0.934), rgb(110, 14, 14));
-    }
-
     .site-header nav ul {
         flex-direction: row;
     }
@@ -257,8 +260,8 @@ h1{
     }
 
     .title-part h1 {
-        font-size: 2.5rem;
-        padding-top: 2em;
+        font-size: 1.6rem;
+        padding-top: 1em;
     }
 
     .localGuide h1 {
@@ -277,10 +280,15 @@ h1{
 
 @media (max-width: 480px) {
     .title-part h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        padding-top: 1em;
     }
     body{
-        background-image: linear-gradient(rgba(36, 96, 45, 0.934), rgb(110, 14, 14));
+        background-color: black;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-height: 95vh;
     }
     .localGuide h1 {
         font-size: 1.5rem;
